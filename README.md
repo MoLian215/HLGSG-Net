@@ -1,26 +1,29 @@
 # HLGSG-Net
 
-> A Multi-Modal Remote Sensing Image Change Detection Approach — Under Revision and Paper Writing
+> **Semantic-Guided Dual-Domain Reconstruction for Unsupervised Multi-Modal Remote Sensing Change Detection**
+>
+> *Paper in preparation.*
 
 ## Overview
 
-This project investigates change detection in multi-modal remote sensing imagery, with a focus on semantic-guided feature integration and spatial-frequency dual-domain reconstruction. Currently, the work is in the phase of model refinement, experimental validation, and paper preparation.
+This project focuses on unsupervised multi-modal remote sensing image change detection.
 
-The overall pipeline of the proposed method is illustrated below:
+To address the limited semantic representation and insufficient complementary feature learning in existing reconstruction-based methods, HLGSG-Net incorporates semantic-guided feature fusion and dual-domain complementary reconstruction for multi-modal romote sensing change detection.
 
 <p align="center">
-  <img src="FlowChart.png" width="80%" />
+  <img src="FlowChart.png" width="80%">
 </p>
 
-## Progress
+## Current Progress
 
-- Main framework established with preliminary experimental results
-- Ongoing refinement of architectural details and comparative evaluations
-- Paper drafting in parallel with experimental improvements
+- Overall framework established
+- Extensive experiments completed on five public datasets
+- Further model refinement and theoretical analysis in progress
+- Paper drafting is underway
 
-## Visualization Results
+## Visualization
 
-Sample detection outputs are available under the `results/` directory. Each input image is displayed side-by-side with its corresponding change detection map for direct visual comparison.
+Representative qualitative results can be found in the `results/` directory.
 
 <table>
   <tr>
