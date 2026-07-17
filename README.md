@@ -23,7 +23,7 @@ The overall pipeline of the proposed method is illustrated below:
 Sample detection outputs are available under the `results/` directory. Each input image is displayed side-by-side with its corresponding change detection map for direct visual comparison.
 
 <p float="left">
-  <img src="data/T1.png" width="300" align="left" />
-  <img src="data/T2.png" width="300" align="left" />
-  <img src="result/ErrorMap.png" width="300" align="left" />
+  <img src="data/T1.png" width="200" align="left" />
+  <img src="data/T2.png" width="200" align="left" />
+  <img src="result/ErrorMap.png" width="200" align="left" />
 </p>
