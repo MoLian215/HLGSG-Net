@@ -6,6 +6,12 @@
 
 This project investigates change detection in multi-modal remote sensing imagery, with a focus on semantic-guided feature integration and spatial-frequency dual-domain reconstruction. Currently, the work is in the phase of model refinement, experimental validation, and paper preparation.
 
+The overall pipeline of the proposed method is illustrated below:
+
+<p align="center">
+  <img src="FlowChart.png" width="80%" />
+</p>
+
 ## Progress
 
 - Main framework established with preliminary experimental results
@@ -17,7 +23,7 @@ This project investigates change detection in multi-modal remote sensing imagery
 Sample detection outputs are available under the `results/` directory. Each input image is displayed side-by-side with its corresponding change detection map for direct visual comparison.
 
 <p float="left">
-  <img src="data/T1.png" width="300" />
-  <img src="data/T2.png" width="300" />
-  <img src="result/ErrorMap.png" width="300" />
+  <img src="data/T1.png" width="300" style="transform: rotate(-90deg);" />
+  <img src="data/T2.png" width="300" style="transform: rotate(-90deg);" />
+  <img src="result/ErrorMap.png" width="300" style="transform: rotate(-90deg);" />
 </p>
